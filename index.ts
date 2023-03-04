@@ -10,5 +10,5 @@ const url = "https://jsonplaceholder.typicode.com/todos/1";
 
 axios.get(url).then((res) => {
   const todo: Todo = res.data;
-  console.log(todo.ID);
+  console.log(todo.id);
 });
